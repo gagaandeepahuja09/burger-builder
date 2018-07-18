@@ -1,0 +1,22 @@
+@keyframes Spinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.Spinner {
+  content: '';
+  box-sizing: border-box;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid #f6f;
+  border-top-color: #0e0;
+  border-right-color: #0dd;
+  border-bottom-color: #f90;
+  animation: Spinner .6s linear infinite;
+}
